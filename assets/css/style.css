@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 25.888px;
+    background-color: white;
+    background-image: url("../images/background.png");
+    color: #777777;
+}
+
+.header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width: 100%;
+    background-color: #ffffff;
+    overflow: auto;
+    border-bottom: 2px solid #cccccc;
+}
+
+.header-right{
+    position: absolute;
+    float: right;
+    font-size: 16px;
+    background-color: #ffffff;
+    padding-top: 25px;
+    left: 818px;
+}
+
+.name{
+    background-color: #4aaaa5;
+    padding: 20px;
+    color: white;
+    float: left;
+    font-weight: 550;
+}
+
+.mainheader{
+    padding: 0px 100px 0px 100px;
+}
+
+h1{
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #4aaaa5;
+    margin-bottom: 15px;
+    font-weight: 550;
+}
+
+.maincontent{
+    clear: both;
+    background-color: #ffffff;
+    width: 960px;
+    padding: 20px;
+    margin:20px 100px 0px 100px;
+    box-sizing: border-box;
+    border: 2px solid #dddddd;
+}
+
+.aboutme{
+    margin-top: 25px; 
+}
+
+.myphoto{
+    width: 15%;
+    height: 15%;
+    float: left;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #777777;
+    padding: 15px;
+    background-color: #ffffff;
+    border
+}
+
+a:active{
+    color: #777777;
+}
+
+a:focus{
+    color: #777777;
+}
+
+a:hover{
+    color: #9e9d9d;
+}
